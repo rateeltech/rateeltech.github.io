@@ -399,13 +399,14 @@ p {
 
 /*===== NAVBAR NINE =====*/
 .navbar-area.navbar-nine {
-  background: var(--primary);
+  background: #fff;
   padding: 10px 0;
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   z-index: 9;
+      border-bottom: 1px solid #165bd5;
 }
 .sticky {
   position: fixed !important;
@@ -430,7 +431,7 @@ p {
 .navbar-area.navbar-nine .navbar .navbar-toggler .toggler-icon {
   width: 30px;
   height: 2px;
-  background-color: var(--white);
+  background-color: #000;
   margin: 5px 0;
   display: block;
   position: relative;
@@ -487,7 +488,7 @@ p {
   display: flex;
   align-items: center;
   padding: 11px 16px;
-  color: var(--white);
+  color: #000;
   text-transform: capitalize;
   position: relative;
   border-radius: 5px;
