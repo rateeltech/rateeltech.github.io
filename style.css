@@ -469,6 +469,8 @@ p {
     background-color: #fff;
     z-index: 8;
     padding: 10px 16px;
+    border: 2px solid #cfcfcf;
+    border-top: none;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 1400px) {
